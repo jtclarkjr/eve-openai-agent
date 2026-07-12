@@ -33,7 +33,7 @@ export type OpenAIModel = (typeof OPENAI_MODELS)[number]
 
 export const DEFAULT_OPENAI_BASE_URL = 'https://api.openai.com/v1'
 export const DEFAULT_LOCAL_OPENAI_BASE_URL = 'http://127.0.0.1:1234/v1'
-export const DEFAULT_OPENAI_MODEL: OpenAIModel = 'gpt-5.4-mini'
+export const DEFAULT_OPENAI_MODEL: OpenAIModel = 'gpt-5.6-luna'
 export const DEFAULT_LOCAL_OPENAI_API_KEY = 'local'
 export const DEFAULT_LOCAL_CONTEXT_WINDOW_TOKENS = 32_768
 
